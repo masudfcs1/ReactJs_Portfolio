@@ -25,7 +25,7 @@ const Home = () => {
             >
               Portfolio
               <span className=" group-hover:rotate-90 duration-200 ">
-                <MdOutlineKeyboardArrowRight size={20} />
+                <MdOutlineKeyboardArrowRight size={25} className=" ml-0.5" />
               </span>
             </button>
           </div>
