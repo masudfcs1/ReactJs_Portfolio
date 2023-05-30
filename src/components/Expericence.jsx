@@ -8,6 +8,7 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import html from "../assets/html.png";
+import android from "../assets/android.png";
 
 const Expericence = () => {
   const techs = [
@@ -21,49 +22,49 @@ const Expericence = () => {
       id: 2,
       src: tailwind,
       title: "Tailwind",
-      style: " shadow-orange-500 ",
+      style: " shadow-blue-500 ",
     },
     {
       id: 3,
       src: javascript,
       title: "Javascript",
-      style: "shadow-orange-500 ",
+      style: "shadow-yellow-500 ",
     },
     {
       id: 4,
       src: react,
       title: "React",
-      style: " shadow-orange-500 ",
+      style: " shadow-sky-500 ",
     },
     {
       id: 5,
       src: nextjs,
       title: "NextJS",
-      style: " shadow-orange-500 ",
+      style: " shadow-green-500 ",
     },
     {
       id: 6,
       src: node,
       title: "NodeJS",
-      style: " shadow-orange-500 ",
+      style: " shadow-green-300 ",
     },
     {
       id: 7,
       src: graphql,
       title: "GrapQL",
-      style: " shadow-orange-500 ",
+      style: " shadow-pink-500 ",
     },
     {
       id: 8,
       src: github,
       title: "Github",
-      style: " shadow-orange-500 ",
+      style: " shadow-gray-300 ",
     },
     {
       id: 9,
-      src: html,
-      title: "Html",
-      style: " shadow-orange-500 ",
+      src: android,
+      title: "Android",
+      style: " shadow-purple-500 ",
     },
   ];
 
@@ -80,10 +81,15 @@ const Expericence = () => {
           <p className="py-6">These are the techologies I've worked with</p>
         </div>
         <div className=" w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 ">
-          <div className=" shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-            <img src={html} alt="" className=" w-20 mx-auto" />
-            <p className="mt-4">html</p>
-          </div>
+          {techs.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`cursor-pointer shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className=" w-20 mx-auto  " />
+              <p className="mt-4"> {title} </p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
