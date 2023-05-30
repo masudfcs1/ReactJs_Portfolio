@@ -52,12 +52,12 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className=" flex flex-col top-[35%] left-0 fixed ">
+    <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed ">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-1000px] hover:ml-[10px] duration-300 hover:rounded-md" +
+              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[10px] duration-300 hover:rounded-md" +
               " " +
               style
             }
