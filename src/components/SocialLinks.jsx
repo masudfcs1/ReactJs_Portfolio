@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkdIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://bd.linkedin.com/in/shayla-sharmin-036a0996",
       style: "rounded-tr-md",
     },
 

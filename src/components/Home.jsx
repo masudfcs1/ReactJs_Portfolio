@@ -12,12 +12,12 @@ const Home = () => {
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className=" text-gray-500 py-4 max-w-md ">
           <h2 className=" text-white text-4xl sm:text-7xl font-bold ">
-            I'am full Stack Developer{" "}
+            Senior lecturer and researcher here.
           </h2>
           <p className=" text-gray-500 py-4 max-w-md">
-            I have 10 years of experience teaching and developing profession. I
-            love to work on teaching and web application using several
-            technologies.
+            I have 10 years of experience teaching and researching. I love to
+            work on teaching and Image processing, Artificial Neural network,
+            Deep Learing using several technologies.
           </p>
           <div>
             <Link
