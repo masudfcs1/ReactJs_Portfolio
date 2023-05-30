@@ -10,7 +10,7 @@ const About = () => {
         className=" max-w-screen-lg p-4 mx-a
        flex flex-col w-full h-full"
       >
-        <div className="text-4xl font-bold inline border-b- border-gray-500">
+        <div className="text-4xl font-bold inline border-b-4 border-gray-500">
           <p>About</p>
         </div>
         <p className="text-xl mt-20">
