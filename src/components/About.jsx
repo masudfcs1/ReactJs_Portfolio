@@ -16,12 +16,12 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore
+          ipsum dolor sit amet consectetur adipisicing elit. Minus dolore
           nostrum, numquam cupiditate omnis mollitia velit in accusamus aliquid
           corrupti adipisci delectus natus dignissimos commodi! Libero, ipsam.
           Asperiores atque et fugiat minus aliquid nemo voluptatibus est,
           nostrum voluptatem eos temporibus consequuntur hic illo vel quo. Dicta
-          soluta iusto voluptatem optio!{" "}
+          soluta iusto voluptatem aaaa!{" "}
         </p>
         <br />
         <p className="text-xl">
