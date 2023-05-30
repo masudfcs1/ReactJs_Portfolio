@@ -25,10 +25,7 @@ const About = () => {
         <p className="text-xl">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad iste
           optio, laboriosam, cum in pariatur, quisquam illum beatae modi
-          explicabo blanditiis. Dolor sequi necessitatibus a unde, quidem
-          deserunt illum, numquam corrupti laboriosam debitis eum repellendus
-          consequuntur cumque asperiores veniam fugiat eveniet quisquam
-          assumenda culpa voluptatum! Totam error enim tempora laudantium.
+          uptatum! Totam error enim tempora laudantium.
         </p>
       </div>
     </div>

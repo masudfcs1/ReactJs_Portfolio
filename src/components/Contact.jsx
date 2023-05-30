@@ -2,14 +2,23 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <p>Contact</p>
-          <p>Submit the form below to get in touch with me</p>
+    <div
+      name="contact"
+      className=" w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white "
+    >
+      <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
+        <div className="pb-8">
+          <p className=" text-4xl font-bold inline border-b-4 border-gray-500">
+            Contact
+          </p>
+          <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        <div>
-          <form action="">
+        <div className="flex justify-center items-center">
+          <form
+            action="https://getform.io/f/8a3d30e7-23de-48dc-a0c3-79e7fedc77a8"
+            method="post"
+            className=" flex flex-col w-full md:w-1/2 "
+          >
             <input
               className=" p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               type="text"
@@ -17,7 +26,7 @@ const Contact = () => {
               placeholder="Enter your name"
             />
             <input
-              className=" p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className=" p-2 bg-transparent border-2 rounded-md my-4 text-white focus:outline-none"
               type="text"
               name="email"
               placeholder="Enter your Email"
